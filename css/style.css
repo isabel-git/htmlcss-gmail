@@ -1,0 +1,87 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+  background-image: url('../img/sfondo.jpg');
+}
+
+.contenitore{
+  width: 90%;
+  margin: auto;
+}
+
+hr{
+  background-color: white;
+}
+
+
+/* regole intestazione */
+header > img{
+  width: 200px;
+}
+
+header > span{
+  font-size: 30px;
+}
+
+section >button{
+  color: black;
+  border-radius: 20px;
+}
+
+#unread{
+  margin-top: 10px;
+}
+
+#cerchio{
+  border-radius: 50%;
+  background-color: orange;
+  padding: 7px;
+}
+
+
+/*  regole email */
+.riga{
+  border: 1px solid black;
+}
+
+.riga.letta{
+  background-color: white;
+}
+
+.riga.non-letta{
+  background-color: lightgray;
+}
+
+.riga .oggetto{
+  color: black;
+  font-weight: bold;
+}
+
+.riga .corpo{
+  color: gray;
+}
+
+
+/* regole stellina */
+.star:before{
+  content: "\2605";
+}
+
+.star{
+  color: black;
+}
+
+
+/* footer */
+footer{
+  text-align: center;
+}
+
+footer > span{
+  font-size: 15px;
+  font-family: 'Dancing Script', cursive;
+}

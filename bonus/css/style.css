@@ -1,0 +1,145 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/sfondo.jpg);
+}
+
+.container{
+  margin: auto;
+  width: 90%;
+}
+
+hr{
+  height: 1px;
+}
+
+/* INIZIO PROPRIETA DI HEADER */
+
+header div:first-child{
+  display: inline-block;
+  width: 20%;
+}
+
+/* logo gmail */
+img{
+  height: 30px;
+  padding-left: 30px;
+}
+
+img.middle{
+  vertical-align: middle;
+}
+
+/* search bar */
+
+header input{
+  width: 300px;
+  height: 30px;
+}
+
+header button{
+  background-color: grey;
+  height: 30px;
+  width: 50px;
+  color: white;
+}
+
+/* FINE PROPRIETA HEADER */
+
+
+/* INIZIO PROPRIETA DI MAIN */
+
+/* navigazione */
+nav{
+  width: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  vertical-align: top;
+}
+nav a{
+  margin-left: 30px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+nav span{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+nav img{
+  border: 1px solid black;
+  padding: 0;
+  border-radius: 50%
+}
+
+a span:hover{
+  font-weight: bold;
+}
+/* fine navigazione */
+
+
+/*  regole email */
+main > section{
+  width: 79%;
+  display: inline-block;
+}
+
+.email{
+  border: 1px solid black;
+}
+
+.email.letta{
+  background-color: white;
+}
+
+.email.non-letta{
+  background-color: lightgray;
+}
+
+.riga-destra{
+  width: 30%;
+  display: inline-block;
+}
+
+.riga-sinistra{
+  width: 50%;
+  display: inline-block;
+}
+
+.email .oggetto{
+  color: black;
+  font-weight: bold;
+}
+
+.email .corpo{
+  color: gray;
+}
+
+section .email:hover{
+  background-color: #C4FF4A;
+}
+
+/* regole stellina */
+.star:before{
+  content: "\2605";
+}
+
+.star{
+  color: orange;
+}
+
+
+/* FINE PROPRIETA DI MAIN */
+
+/* regole footer */
+footer{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: 'Dancing Script', cursive;
+}
